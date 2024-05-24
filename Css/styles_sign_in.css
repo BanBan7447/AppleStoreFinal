@@ -1,0 +1,134 @@
+:root{
+    --white: #F5F5F7;
+    --blue: #0065CC;
+    --Black: #181818;
+}
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #Icon{
+    filter: invert(100%) sepia(27%) saturate(601%) hue-rotate(241deg) brightness(103%) contrast(94%);
+}
+
+header li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header .Head_List{
+    display: flex;
+    align-items: center;
+}
+
+header li, a{
+    color: var(--white);
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.TieuDe{
+    margin: 35px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+article .Sign_in{
+    width: 480px;
+    margin-top: 40px;
+}
+
+article .Sign_in h1{
+    text-align: center;
+}
+
+article .Sign_in .Input_Box{
+    width: 100%;
+    height: 55px;
+    margin: 30px 0;
+}
+
+.Sign_in .Input_Box input{
+    width: 100%;
+    height: 55px;
+    border-radius: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #181818;
+    padding-left: 15px;
+}
+
+.Sign_in .Input_Box input::placeholder{
+    color: #181818;
+    font-size: 15px;
+}
+
+.Save_Password{
+    text-align: center;
+}
+
+.Save_Password label input{
+    margin: 7px;
+}
+
+.Forgot_Password{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.Forgot_Password a{
+    font-size: 16px;
+    color: var(--blue);
+}
+
+.Forgot_Password a:hover{
+    text-decoration: underline;
+}
+
+.Sign_Up{
+    text-align: center;
+}
+
+.Sign_in p a{
+    font-size: 16px;
+}
+
+.Sign_in a{
+    color: var(--blue);
+}
+
+.Sign_in a:hover{
+    text-decoration: underline;
+}

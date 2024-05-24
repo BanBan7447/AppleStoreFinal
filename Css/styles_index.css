@@ -1,0 +1,277 @@
+:root{
+    --white: #F5F5F7;
+    --blue: #0065CC;
+    --Black: #181818;
+}
+
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #Icon{
+    filter: invert(100%) sepia(27%) saturate(601%) hue-rotate(241deg) brightness(103%) contrast(94%);
+}
+
+header li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header .Head_List{
+    display: flex;
+    align-items: center;
+}
+
+header li, a{
+    color: var(--white);
+    font-size: 12px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 530px;
+    background-color: #0065CC;
+    position: relative;
+}
+
+.MainBanner img{
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+}
+
+.SmallBanner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+}
+
+#Icon_Arrow_Left,
+#Icon_Arrow_Right{
+    width: 22px;
+    height: 28px;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+article{
+    width: 100%;
+    height: 4500px;
+    background-color: var(--white);
+    padding: 32px;
+}
+
+article .iPhone{
+    width: 100%;
+    height: 547px;
+}
+
+article .iPad,
+article .Mac,
+article .AirPods,
+article .Watch,
+article .PhuKien{
+    width: 100%;
+    height: 547px;
+    margin-top: 40px;
+}
+
+article .TieuDe{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article .TieuDe h1{
+    font-size: 48px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+article .TieuDe h4{
+    font-size: 17px;
+    color: var(--Black);
+    justify-content: end;
+}
+
+article .Container_SanPham{
+    display: flex;
+    justify-content: center;
+}
+
+article .SanPham{
+    width: 320px;
+    height: 450px;
+    margin: 40px 20px 0px 20px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+article .SanPham img{
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+article .Mac .SanPham .MacProAir{
+    margin-bottom: 82px;
+    height: 135px;
+}
+
+article .SanPham h1{
+    margin-top: 15px;
+    margin-bottom: 12.5px;
+}
+
+article .SanPham h4{
+    font-size: 17px;
+    margin-top: 12.5px;
+    margin-bottom: 10px;
+}
+
+article #btn_TimHieuThem{
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+    font-size: 17px;
+    color: var(--white);
+    background-color: var(--Black);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+article #btn_Mua{
+    padding: 10px 15px 10px 15px;
+    border-radius: 100px;
+    font-size: 17px;
+    color: var(--white);
+    background-color: var(--blue);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+article .Banner h1{
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 24px;
+    margin-left: 15px;
+}
+
+.Banner_Video{
+    text-align: center;
+    border-radius: 40px;
+}
+
+.Banner_Video img{
+    border-radius: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 470px;
+    background-color: var(--Black);
+    padding: 15px;
+}
+
+footer #Icon{
+    filter: invert(100%) sepia(27%) saturate(601%) hue-rotate(241deg) brightness(103%) contrast(94%);
+}
+
+footer .Info_Company{
+    display: flex;
+    align-items: center;
+}
+
+footer .Info_Company p{
+    color: var(--white);
+    font-size: 12px;
+}
+
+footer .Info_Company img{
+    margin-right: 10px;
+}
+
+footer .Container_Info{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+footer .Footer_Info{
+    width: 195px;
+    height: 315px;
+    margin: 0px 17.5px 0px 17.5px;
+}
+
+footer .Footer_Info li h6{
+    color: white;
+    font-size: 12px;
+}
+
+footer .Footer_Info li{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+footer .Footer_Info a:hover{
+    text-decoration: underline;
+}
+
+footer .Final_Info{
+    color: var(--white);
+    font-size: 12px;
+}
+
+footer .LienHe{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer .Find,
+footer .Call{
+    color: var(--blue);
+}
